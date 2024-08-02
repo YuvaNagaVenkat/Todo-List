@@ -1,0 +1,34 @@
+body{
+  font-family:Arial;
+}
+.css-todo-grid,.css-todo-input-grid{
+  display:grid;
+  grid-template-columns:200px 150px 100px;
+  column-gap:10px;
+  row-gap: 15px;
+  align-items:center;
+}
+.css-todo-input-grid{
+  align-items: stretch;
+  margin-bottom:15px;
+}
+.css-name,.css-dueDate{
+  font-size:15px;
+  padding:7px;
+}
+.css-add-button{
+  background-color: green;
+  border:none;
+  color:white;
+  font-size:15px;
+  cursor:pointer;
+}
+.css-delete-button{
+  background-color: darkred;
+  color:white;
+  border:none;
+  font-size:15px;
+  cursor:pointer;
+  padding:10px 30px;
+
+}
