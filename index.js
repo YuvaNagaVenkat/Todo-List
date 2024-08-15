@@ -1,4 +1,4 @@
-todoList=JSON.parse(localStorage.getItem('todoList')||[];
+todoList=JSON.parse(localStorage.getItem('todoList'))||[];
 displayTodo();
 function AddTodo(){
   const todoName=document.querySelector('.js-input-todo')
@@ -38,8 +38,6 @@ function displayTodo(){
     " class="css-delete-button">Delete</button>
     </div>`;
     todoItems+=html;
-    // console.log(todoItems);
   }
   document.querySelector('.js-todoContainer').innerHTML=todoItems;
-  document.querySelector('.js-dueDate').value='';
 }
